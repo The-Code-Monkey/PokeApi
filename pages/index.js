@@ -23,6 +23,8 @@ const Home = props => {
   
   return (
     <>
+      <img src={"/static/logo.png"} className={"logo"} />
+      {/*<img src={"/static/pokemon.jpg"} className={"pokemon"} />*/}
       <div className={"search-wrapper"}>
         <AutoComplete options={list} onSelect={poke => onSelect(poke)} />
       </div>

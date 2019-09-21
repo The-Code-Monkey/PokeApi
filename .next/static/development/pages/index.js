@@ -5173,11 +5173,19 @@ var Home = function Home(props) {
     });
   }
 
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, __jsx("div", {
-    className: "search-wrapper",
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, __jsx("img", {
+    src: "/static/logo.png",
+    className: "logo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "search-wrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
     },
     __self: this
   }, __jsx(_components_autoComplete__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -5187,7 +5195,7 @@ var Home = function Home(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: this
   })), selectedPoke !== null && __jsx(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, __jsx("div", {
@@ -5195,33 +5203,33 @@ var Home = function Home(props) {
     className: "poke-card",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 33
     },
     __self: this
   }, __jsx("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 34
     },
     __self: this
   }, selectedPoke.name.substr(0)[0].toUpperCase(), selectedPoke.name.substring(1).toLowerCase(), " - ", selectedPoke.id >= 100 ? selectedPoke.id : selectedPoke.id >= 10 ? "0".concat(selectedPoke.id) : "00".concat(selectedPoke.id)), __jsx("div", {
     className: "row mt-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 35
     },
     __self: this
   }, __jsx("div", {
     className: "col-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 36
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: this
   }, "Normal"), __jsx("img", {
@@ -5229,20 +5237,20 @@ var Home = function Home(props) {
     className: "img-fluid",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: this
   })), __jsx("div", {
     className: "col-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: this
   }, "Shiny"), __jsx("img", {
@@ -5250,34 +5258,34 @@ var Home = function Home(props) {
     className: "img-fluid",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     },
     __self: this
   }))), __jsx("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: this
   }, __jsx("div", {
     className: "col-12 mt-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: this
   }, __jsx("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 47
     },
     __self: this
   }, "Abilities"), __jsx("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 48
     },
     __self: this
   }, selectedPoke.abilities.map(function (ability, i) {
@@ -5285,40 +5293,40 @@ var Home = function Home(props) {
       className: "col-6 ability",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 50
       },
       __self: this
     }, __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 51
       },
       __self: this
     }, "Name: ", ability.ability.name));
   })), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 55
     },
     __self: this
   })), __jsx("div", {
     className: "col-12 mt-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 57
     },
     __self: this
   }, __jsx("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 58
     },
     __self: this
   }, "Moves"), __jsx("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 59
     },
     __self: this
   }, selectedPoke.moves.map(function (move, index) {
@@ -5326,13 +5334,13 @@ var Home = function Home(props) {
       className: "col-3 move",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 61
       },
       __self: this
     }, __jsx("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 62
       },
       __self: this
     }, "Name: ", move.move.name));

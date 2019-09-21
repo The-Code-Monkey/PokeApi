@@ -3,6 +3,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("/static/pokemon.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.logo {
+  width: 50vw;
+  position: absolute;
+  left: 25vw;
+  top: 15vh;
 }
 
 #poke-search {
@@ -84,10 +94,5 @@ h1 {
 }
 
 *{
-  color: white;
   text-align: center;
-}
-
-body {
-  background-color: #E3350D;
 }

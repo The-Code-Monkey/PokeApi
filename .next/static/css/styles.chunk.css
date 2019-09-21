@@ -2,7 +2,16 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  background-image: url("/static/pokemon.jpg");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.logo {
+  width: 50vw;
+  position: absolute;
+  left: 25vw;
+  top: 15vh; }
 
 #poke-search {
   width: 350px;
@@ -70,11 +79,7 @@ h1 {
     text-decoration: underline; }
 
 * {
-  color: white;
   text-align: center; }
-
-body {
-  background-color: #E3350D; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
