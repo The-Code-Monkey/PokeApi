@@ -1,0 +1,57 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/sass-loader/lib/loader.js??ref--5-2!index.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/sass-loader/lib/loader.js??ref--5-2!index.scss 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/c9iBJgLpZkkM1Aje39TYO/pages/_app.js": 2,
+      "static/c9iBJgLpZkkM1Aje39TYO/pages/_error.js": 3,
+      "static/c9iBJgLpZkkM1Aje39TYO/pages/index.js": 4,
+      "static/runtime/main.js": 5,
+      "styles": 6,
+      "static/ftCU4ZLmAuYfi53oYLjJJ/pages/_app.js": 7,
+      "static/ftCU4ZLmAuYfi53oYLjJJ/pages/_error.js": 8,
+      "static/ftCU4ZLmAuYfi53oYLjJJ/pages/index.js": 9,
+      "static/5eYwAilO8tNkpVhrM00Ee/pages/_app.js": 2,
+      "static/5eYwAilO8tNkpVhrM00Ee/pages/_error.js": 3,
+      "static/5eYwAilO8tNkpVhrM00Ee/pages/index.js": 4,
+      "static/b5DgrPr5hpk6uuiWv4tfO/pages/_app.js": 7,
+      "static/b5DgrPr5hpk6uuiWv4tfO/pages/_error.js": 8,
+      "static/b5DgrPr5hpk6uuiWv4tfO/pages/index.js": 9
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
